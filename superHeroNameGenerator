@@ -1,0 +1,7 @@
+import heroes as h
+print("Welcome to super hero name generator")
+req = input("Do you want to generate a new hero name y or n").lower()
+if(req =="y"):
+    print("Your hero name is ", h.gen())
+else:
+    print("You can name your super hero")
