@@ -1,0 +1,22 @@
+def updateSeats(seat_list):
+  seat_list[1]=25
+
+def checkIn(baggage,boarding_pass):
+  if(baggare>=1 && boarding_pass<=30):
+  boarding_pass = "Issued"
+
+
+boarding_pass="Not Issued"
+print("boarding_pass before function call:", boarding_pass)
+
+checkIn(25,boarding_pass)
+print("boarding_pass after function call:", boarding_pass)
+print("boarding_pass, a string is immutable")
+print("-------------------------------------------------------")
+
+
+passenger_seat=["Jack","NA"]
+print("passenger_seat before function call:", passenger_seat)
+update_seat(passenger_seat)
+print("passenger_seat after function call:", passenger_seat)
+print("passenger_seat, a list is mutable")
